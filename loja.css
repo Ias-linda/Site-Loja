@@ -1,0 +1,619 @@
+html{
+  height: 100%;
+box-sizing: border-box;
+}
+
+body{
+  margin: 0px;
+  padding: 0%;
+  font-family: Arial, sans-serif;
+  width: auto;
+  height: auto;
+  margin: auto;
+ 
+}
+.destacado {
+  transition: color 0.3s ease-in-out;
+}
+
+.destacado:hover {
+  color: rgb(65, 60, 215);
+
+}
+
+.destacado2 {
+  transition: color 0.3s ease-in-out;
+}
+
+.destacado2:hover {
+  color: rgb(0, 0, 0);
+
+}
+
+.menu ul {
+  font-family: Arial, sans-serif;
+  width:auto;
+  height:auto;
+  list-style: none;
+  padding:0%;
+  margin:auto;
+  background-color: rgb(0, 0, 0);
+  text-align:center;
+  font-size: 21px;
+}
+
+li a:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  display: block;
+  
+}
+
+.menu ul li {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.menu ul li a {
+  display: block;
+  padding: 0px 30px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu ul ul {
+  display: none;
+  position: absolute;
+}
+
+.menu ul li:hover > ul {
+  background-color: rgba(100, 100, 100, 0.923);
+  display: block;
+}
+
+.menu ul ul li {
+  display: block;
+}
+
+.menu ul ul li a {
+  padding: 8px 15px;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulsate {
+  animation: pulse 1s infinite;
+}
+
+
+.cont-cabecalho{
+  width: 100%;
+  height: auto;
+  padding-left: 1%;
+  
+}
+
+.cont-titulo{
+  
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 20% 50% 20%;
+  
+}
+.titulo-pagina{
+  padding-left: 80%;
+  height: 100%;
+  text-align: center;
+  animation: pulse 6s infinite;
+}
+
+.titulo-pagina h1{
+  font-size: 50px;
+  font-family:'Times New Roman', Times, serif;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+.logo-ifrn{
+  min-width: 100px;
+  min-height: 100px;
+  margin: auto;
+}
+.logo-ifrn img{
+  width: 100px;
+  height: 100px;
+  padding: auto;
+}
+.logo-coração{
+  min-width: 250px;
+  min-height: 100px;
+  margin: auto;
+}
+.logo-coração img{
+  width: 100px;
+  height: 100px;
+  
+}
+.conteudo {
+  width: 90%;
+  margin: auto;
+}
+
+.cont-descricao {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  display: grid;
+  padding: 10px;
+  grid-template-columns: 50% 50%;
+  align-content: center;
+  background-color: rgb(250, 246, 246);
+  font-family: monospace;
+font-size: 30px;
+}
+
+.descricao {
+  padding: 10%;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.logo loja {
+  margin: auto;
+}
+
+.logo loja img {
+  width: 400px;
+  height: 400px;
+}
+
+.cont-sessao {
+  margin-top: 10px;
+  width: 100%;
+
+}
+
+.cont-ses {
+  width: 100%;
+  padding-top: 10%;
+
+}
+
+.titulo-sessao {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+  background-color:  rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+.grid-sessao {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.grid-ses {
+  display: grid;
+  grid-template-columns: 25% 
+}
+
+.quadro {
+  width: 95%;
+  height: 350px;
+  background-color:  rgba(0, 0, 0, 0.3);
+
+}
+
+.quadro2 {
+  width: 95%;
+  height: 350px;
+  background-color:  rgba(0, 0, 0, 0.3);
+display: grid;
+}
+.titulo-quadro {
+  width: 95%;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color:rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.img-quadro {
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.img-quadro img {
+  width: 80%;
+  height: 200px;
+
+}
+
+.cont-quadro {
+  width: 90%;
+  height: 70px;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+  animation: pulse 2s infinite;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-quadro-verde {
+  background-color: rgb(0, 0, 0);
+}
+
+.titulo-sessao-azul {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-bottom: 5px solid hsl(0, 0%, 100%);
+}
+
+.titulo-quadro-azul {
+  background-color: rgb(0, 0, 0);
+}
+
+.titulo-sessao-verde {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+.quadro-azul {
+  background-color: rgba(0, 0, 0, 0.432);
+}
+
+.quadro-verde {
+  background-color: rgba(0, 0, 0, 0.452);
+
+}
+
+.rodape {
+  margin-top: 20px;
+  width: 100%;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.rodape-left {
+  padding-left: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.rodape-right {
+  padding-right: 20px;
+  text-align: end;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.retangulo {
+  width: 200%;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-right: 100%;
+}
+
+.titulo-retangulo {
+  width: 148%;
+  height: auto;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: rgb(228, 22, 22);
+  padding: 10px;
+ 
+}
+
+.cont-retangulo {
+  width: 90%;
+  height: 80px;
+  margin: auto;
+  text-align: justify;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.preco {
+  bottom: 20px;
+  width: auto;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-right: 20px;
+  text-align: end;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 40px;
+  text-align: center;
+}html{
+  height: 100%;
+
+}
+
+body{
+  margin: 0px;
+  padding: 0x;
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+ 
+}
+
+.cont-cabecalho{
+  width: 100%;
+  height: auto;
+  
+}
+.cont-titulo{
+  
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 20% 50% 20%;
+  
+}
+.titulo-pagina{
+  
+  height: 100%;
+  text-align: center;
+}
+.titulo-pagina h1{
+  font-size: 50px;
+  font-family:'Times New Roman', Times, serif;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+.logo-ifrn{
+  min-width: 100px;
+  min-height: 100px;
+  margin: auto;
+}
+.logo-ifrn img{
+  width: 100px;
+  height: 100px;
+  padding: auto;
+}
+.logo-coração{
+  min-width: 250px;
+  min-height: 100px;
+  margin: auto;
+}
+.logo-coração img{
+  width: 100px;
+  height: 100px;
+  
+}
+.conteudo {
+  width: 90%;
+  margin: auto;
+}
+
+.cont-descricao {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  display: grid;
+  padding: 10px;
+  grid-template-columns: 50% 50%;
+  align-content: center;
+  background-color: rgb(250, 246, 246);
+  font-family: monospace;
+font-size: 30px;
+}
+
+.descricao {
+  padding: 10%;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.logo loja {
+  margin: auto;
+}
+
+.logo loja img {
+  width: 400px;
+  height: 400px;
+}
+
+.cont-sessao {
+  margin-top: 10px;
+  width: 100%;
+
+}
+
+.cont-ses {
+  width: 100%;
+  padding-top: 10%;
+
+}
+
+.titulo-sessao {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+  background-color:  rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+.grid-sessao {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.grid-ses {
+  display: grid;
+  grid-template-columns: 25% 
+}
+
+.quadro {
+  width: 95%;
+  height: 350px;
+  background-color:  rgba(0, 0, 0, 0.3);
+
+}
+
+.quadro2 {
+  width: 95%;
+  height: 350px;
+  background-color:  rgba(0, 0, 0, 0.3);
+display: grid;
+}
+.titulo-quadro {
+  width: 95%;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color:rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.img-quadro {
+  width: 80%;
+  height: 200px;
+  margin: auto;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.img-quadro img {
+  width: 80%;
+  height: 200px;
+
+}
+
+.cont-quadro {
+  width: 90%;
+  height: 70px;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.titulo-quadro-verde {
+  background-color: rgb(0, 0, 0);
+}
+
+.titulo-sessao-azul {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-bottom: 5px solid hsl(0, 0%, 100%);
+}
+
+.titulo-quadro-azul {
+  background-color: rgb(0, 0, 0);
+}
+
+.titulo-sessao-verde {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-bottom: 5px solid rgb(255, 255, 255);
+}
+
+.quadro-azul {
+  background-color: rgba(0, 0, 0, 0.432);
+}
+
+.quadro-verde {
+  background-color: rgba(0, 0, 0, 0.452);
+
+}
+
+.rodape {
+  margin-top: 20px;
+  width: 100%;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.rodape-left {
+  padding-left: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.rodape-right {
+  padding-right: 20px;
+  text-align: end;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.retangulo {
+  width: 200%;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-right: 100%;
+}
+
+.titulo-retangulo {
+  width: 148%;
+  height: auto;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: rgb(228, 22, 22);
+  padding: 10px;
+ 
+}
+
+.cont-retangulo {
+  width: 90%;
+  height: 80px;
+  margin: auto;
+  text-align: justify;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.preco {
+  bottom: 20px;
+  width: auto;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-right: 20px;
+  text-align: end;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 40px;
+  text-align: center;
+}
